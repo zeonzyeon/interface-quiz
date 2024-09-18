@@ -11,13 +11,14 @@ public class Cart {
         int totalWeight = 0;
         int totalPrice = 0;
         int totalDiscount = 0;
-        int deliveryCharge = 0;
 
         for (Product product : products) {
             totalWeight += product.getWeight();
             totalPrice += product.getPrice();
             totalDiscount += product.getDiscountAmount();
         }
+
+        int deliveryCharge;
 
         // 무게에 따른 배송비 계산
         if (totalWeight < 3) {

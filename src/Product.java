@@ -10,15 +10,11 @@ public class Product implements Promotion {
         this.weight = weight;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public int getPrice() {
         return price;
     }
 
-    public double getWeight() {
+    public int getWeight() {
         return weight;
     }
 

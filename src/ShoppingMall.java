@@ -7,7 +7,6 @@ public class ShoppingMall {
 
         Cart cart = new Cart(new Product[]{beauty, grocery, largeAppliance});
         int totalDeliveryCharge = cart.calculateDeliveryCharge();
-        System.out.println(totalDeliveryCharge);
-        // 결과: 9000
+        System.out.println("배송비: " + totalDeliveryCharge);
     }
 }
