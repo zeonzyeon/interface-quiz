@@ -1,3 +1,5 @@
+package interfaceQuiz;
+
 // 장바구니
 // 배송비를 계산하는 메소드만 구현
 public class Cart {
