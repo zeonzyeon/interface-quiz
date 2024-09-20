@@ -1,3 +1,5 @@
+package interfaceQuiz;
+
 // 상품 (부모 클래스)
 public class Product implements Promotion {
     private String name;

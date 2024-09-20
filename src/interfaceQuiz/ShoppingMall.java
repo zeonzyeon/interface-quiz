@@ -1,3 +1,5 @@
+package interfaceQuiz;
+
 // 메인 메소드
 public class ShoppingMall {
     public static void main(String[] args) {
