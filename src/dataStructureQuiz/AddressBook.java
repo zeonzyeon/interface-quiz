@@ -25,13 +25,6 @@ public class AddressBook {
     }
 
     public void searchContact(String name) {
-//        for (Contact contact : this.contacts) {
-//            if (contact.getName().equals(name)) {
-//                contact.displayContactInfo();
-//            } else {
-//                System.out.println("연락처를 찾을 수 없습니다.");
-//            }
-//        }
         boolean found = false;
         for (Contact contact : contacts) {
             if (contact.getName().equalsIgnoreCase(name)) {

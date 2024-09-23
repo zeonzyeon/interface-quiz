@@ -13,18 +13,6 @@ public class Contact {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
     public void displayContactInfo() {
         System.out.print("이름: " + name + ", 전화번호: " + phoneNumber);
     }

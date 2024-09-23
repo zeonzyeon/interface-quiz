@@ -75,6 +75,8 @@ public class Main {
                     System.out.println("유효하지 않은 선택입니다. 다시 선택해주세요.");
             }
         }
+
         scanner.close();
+
     }
 }
