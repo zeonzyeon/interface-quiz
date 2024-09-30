@@ -27,7 +27,11 @@ public class JdbcQuiz {
                 System.out.println("name: " + name + ", age: " + age + ", address: " + address);
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+//            Logger.error(""); // 서버 로그를 파일로 남길 수 있는 '로거'(slf4j, log4j, ...)
+//            System.out.println(e.getErrorCode()); // 단점들 때문에 실무에서 사용X
+//            System.out.println(e.getMessage());
+            e.printStackTrace(); // 예외 메시지 그래로 출력 -> 사용X
+//            throw new RuntimeException(); // 위에서 넘어온 예외를 다른 예외를 바꿔줄 때 사용할 수 있지만, 많이 사용하진 않음
         }
     }
 
